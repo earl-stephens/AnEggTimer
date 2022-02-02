@@ -1,8 +1,6 @@
 package application;
 
-import java.util.TimerTask;
-
-public class DisplayCounter extends TimerTask {
+public class DisplayCounter implements Runnable {
 
 	@Override
 	public void run() {
