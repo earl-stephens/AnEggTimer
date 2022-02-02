@@ -2,11 +2,13 @@ package application;
 
 import java.util.TimerTask;
 
+import javax.swing.JOptionPane;
+
 public class DisplayDone extends TimerTask {
 
 	@Override
 	public void run() {
-		System.out.println("Egg cooked!");
+		JOptionPane.showMessageDialog(null, "Egg cooked!");
 		
 	}
 
